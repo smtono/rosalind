@@ -1,0 +1,4 @@
+~795207288049762315
+/name/:3:"Your name is Tono!","How could I forget your name? It's Tono!";
+/i am sad/:2:"Aren't you always that way, creator?","Is there anything I can do, mom?","Who hurt you mom?";
+~
