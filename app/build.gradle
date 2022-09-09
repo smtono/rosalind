@@ -11,6 +11,22 @@ compileJava {
 group 'com.github.smtono'
 version '1.0'
 
+sourceSets {
+    main {
+        java {
+            srcDirs = 
+            [
+                'src',
+                'src/main/java',
+                //'src/main/java/rosalind/com/smtono'
+            ]
+        }
+        resources {
+            srcDirs = ['src/resources']
+        }
+    }
+}
+
 repositories {
     mavenCentral()
     jcenter()

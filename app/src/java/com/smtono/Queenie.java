@@ -1,4 +1,4 @@
-package com.smtono.main;
+package com.smtono;
 
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import com.jagrosh.jdautilities.commons.waiter.EventWaiter;
@@ -16,6 +16,7 @@ import com.smtono.events.extraneous.TonoEvent;
 import com.smtono.events.queenie.QueenEvent;
 import com.smtono.events.queenie.QueenieEvent;
 import com.smtono.util.text.FileUtil;
+
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;

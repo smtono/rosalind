@@ -2,5 +2,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "app\\libs\\DogeSpeak.jar"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
