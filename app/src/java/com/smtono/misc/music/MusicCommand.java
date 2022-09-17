@@ -51,7 +51,6 @@ public class MusicCommand {
                 AudioTrack firstTrack = playlist.getSelectedTrack();
 
                 if (firstTrack == null) {
-                    channel.sendMessage("Hello Tono I'm in the playlistLoaded() method").queue();
                     firstTrack = playlist.getTracks().get(0);
                 }
 
@@ -62,7 +61,6 @@ public class MusicCommand {
 
             @Override
             public void trackLoaded(AudioTrack track) {
-                channel.sendMessage("Hello Tono I'm in the trackLoaded() method").queue();
                 channel.sendMessage("Adding to queue " + track.getInfo().title).queue();
 
                 play(Objects.requireNonNull(channel.getJDA().getGuildById("850554504319598602")), musicManager, track);
